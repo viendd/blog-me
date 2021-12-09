@@ -17,15 +17,15 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="{{asset('')}}css/index.css" />
-    <link rel="stylesheet" href="{{asset('')}}css/homepage.css" />
-    <link rel="stylesheet" href="{{asset('')}}css/navbar.css" />
-    <link rel="stylesheet" href="{{asset('')}}css/footer.css" />
-    <link rel="stylesheet" href="{{asset('')}}css/signup.css" />
+    <link rel="stylesheet" href="{{ env('APP_URL') }}css/index.css" />
+    <link rel="stylesheet" href="{{ env('APP_URL') }}css/homepage.css" />
+    <link rel="stylesheet" href="{{ env('APP_URL') }}css/navbar.css" />
+    <link rel="stylesheet" href="{{ env('APP_URL') }}css/footer.css" />
+    <link rel="stylesheet" href="{{ env('APP_URL') }}css/signup.css" />
     <!--Favicons-->
     <link
         rel="shortcut icon"
-        href="{{asset('')}}img/favicon.ico"
+        href="{{ env('APP_URL') }}img/favicon.ico"
         type="image/x-icon"
     />
 
@@ -46,7 +46,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://cdn.rawgit.com/imsky/holder/master/holder.js"></script>
-    <script src="{{asset('')}}js/script.js"></script>
+    <script src="{{ env('APP_URL') }}js/script.js"></script>
 </head>
 <body>
 <!-- Section 1 -->
@@ -56,7 +56,7 @@
             class="navbar-expand-xl container navbar-light navbar--wrapper"
         >
             <a class="navbar-brand" href="/">
-                <img width="340px" src="{{asset('')}}img/logo-blogstartUp.png" alt="Blog and Me-logo" class="img-thumbnail Blog and Me-logo"/>
+                <img width="340px" src="{{ env('APP_URL') }}img/logo-blogstartUp.png" alt="Blog and Me-logo" class="img-thumbnail Blog and Me-logo"/>
             </a>
             <div class="download-button-wrapper-before">
                 <a href="https://demo.Blog and Me.vn/">
@@ -191,7 +191,7 @@
                     <button class="button-outline button-watch-demo">
                         Xem cách Blog and Me hoạt động
                         <img
-                            src="{{asset('')}}img/play.png"
+                            src="{{ env('APP_URL') }}img/play.png"
                             class="play-button"
                             alt="Blog and Me-play-button"
                         />
@@ -203,7 +203,7 @@
                 <div class="thumbnail-1">
                     <img
                         class="img-thumbnail img-responsive"
-                        src="{{asset('')}}img/logo-blogstartUp.png"
+                        src="{{ env('APP_URL') }}img/logo-blogstartUp.png"
                         alt="Blog and Me-homepage-image-1"
                     /></div>
             </div>
@@ -246,7 +246,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-1.png" class="img-thumbnail" class="img-thumbnail" alt="feature-1" />
+                        <img src="{{ env('APP_URL') }}img/feature-1.png" class="img-thumbnail" class="img-thumbnail" alt="feature-1" />
                         <div>
                             Quá nhiều thông tin, đầu việc được trao đổi cùng lúc và không
                             nắm được đâu là trọng tâm
@@ -255,7 +255,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-2.png" class="img-thumbnail" alt="feature-2" />
+                        <img src="{{ env('APP_URL') }}img/feature-2.png" class="img-thumbnail" alt="feature-2" />
                         <div>
                             Tình trạng "Em tưởng, Em quên, Em nhầm ..." xảy ra HÀNG NGÀY
                         </div>
@@ -263,7 +263,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-3.png" class="img-thumbnail" alt="feature-3" />
+                        <img src="{{ env('APP_URL') }}img/feature-3.png" class="img-thumbnail" alt="feature-3" />
                         <div>
                             Nhà quản lý chẳng thể nắm được trạng thái công việc đã đến đâu
                             vì luồng chat dài vô tận
@@ -272,7 +272,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-4.png" class="img-thumbnail" alt="feature-4" />
+                        <img src="{{ env('APP_URL') }}img/feature-4.png" class="img-thumbnail" alt="feature-4" />
                         <div>
                             Thông tin trao đổi không minh bạch, không tạo cơ sở đánh giá
                             năng lực nhân sự chính xác
@@ -298,7 +298,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-1.png" class="img-thumbnail" alt="feature-1" />
+                        <img src="{{ env('APP_URL') }}img/feature-1.png" class="img-thumbnail" alt="feature-1" />
                         <div>
                             Quá nhiều thông tin, đầu việc được trao đổi cùng lúc và không
                             nắm được đâu là trọng tâm
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-2.png" class="img-thumbnail" alt="feature-2" />
+                        <img src="{{ env('APP_URL') }}img/feature-2.png" class="img-thumbnail" alt="feature-2" />
                         <div>
                             Tình trạng "Em tưởng, Em quên, Em nhầm ..." xảy ra HÀNG NGÀY
                         </div>
@@ -315,7 +315,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-3.png" class="img-thumbnail" alt="feature-3" />
+                        <img src="{{ env('APP_URL') }}img/feature-3.png" class="img-thumbnail" alt="feature-3" />
                         <div>
                             Nhà quản lý chẳng thể nắm được trạng thái công việc đã đến đâu
                             vì luồng chat dài vô tận
@@ -324,7 +324,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-4.png" class="img-thumbnail" alt="feature-4" />
+                        <img src="{{ env('APP_URL') }}img/feature-4.png" class="img-thumbnail" alt="feature-4" />
                         <div>
                             Thông tin trao đổi không minh bạch, không tạo cơ sở đánh giá
                             năng lực nhân sự chính xác
@@ -343,7 +343,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-5.png" class="img-thumbnail" alt="feature-1" />
+                        <img src="{{ env('APP_URL') }}img/feature-5.png" class="img-thumbnail" alt="feature-1" />
                         <div>
                             Đối với các nền kinh tế tiên phong trong nền kinh tế Thế giới, cán cân giữa hai yếu tố tri thức và các nguồn lực đang nghiêng về tri thức.Tri thức thực sự đã trở thành yếu tố quan trọng nhất quyết định mức sống
                         </div>
@@ -351,7 +351,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-6.png" class="img-thumbnail" alt="feature-2" />
+                        <img src="{{ env('APP_URL') }}img/feature-6.png" class="img-thumbnail" alt="feature-2" />
                         <div>
                             Quản trị tri thức sẽ giúp doanh nghiệp có thể biến kiến thức tiềm ẩn trong mỗi cá nhân thành tri thức chung cho toàn doanh nghiệp, đưa tiềm năng trí tuệ của tổ chức được nâng cao và mở rộng
                         </div>
@@ -359,7 +359,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-7.png" class="img-thumbnail" alt="feature-3" />
+                        <img src="{{ env('APP_URL') }}img/feature-7.png" class="img-thumbnail" alt="feature-3" />
                         <div>
                             Khi tri thức trở nên quan trọng hơn vốn, lao động và tài nguyên trong việc cấu thành giá trị kinh tế, người ta nghĩ tới đối tượng trọng tâm mới của hoạt động quản trị, đó là tri thức
                         </div>
@@ -367,7 +367,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-8.png" class="img-thumbnail" alt="feature-4" />
+                        <img src="{{ env('APP_URL') }}img/feature-8.png" class="img-thumbnail" alt="feature-4" />
                         <div>
                             Điều quan trọng là dòng chảy tri thức phải lưu chuyển và xoay liên tục theo chu trình trên mới tạo ra được sự phát triển, nếu chỉ dừng lại một chỗ nghĩa là tri thức chết sẽ không giúp ích cho doanh nghiệp phát triển được."
                         </div>
@@ -385,7 +385,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-9.png" class="img-thumbnail" alt="feature-1" />
+                        <img src="{{ env('APP_URL') }}img/feature-9.png" class="img-thumbnail" alt="feature-1" />
                         <div>
                             CHIẾN LƯỢC chuyển đổi số thay đổi từ nhận thức đến hành động. Đó là 1 quá trình xác định ra những trọng tâm chuyển đổi để làm vững chắc các lợi thế cạnh tranh hay củng cố các rào cản cạnh tranh của doanh nghiệp trong cả ngắn và dài hạn"
                         </div>
@@ -393,7 +393,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-10.png" class="img-thumbnail" alt="feature-2" />
+                        <img src="{{ env('APP_URL') }}img/feature-10.png" class="img-thumbnail" alt="feature-2" />
                         <div>
                             THÁCH THỨC chuyển đổi số đến từ việc ứng dụng công nghệ vào hoạt động kinh doanh của doanh nghiệp. Nó đòi hỏi sự chuẩn bị kỹ càng từ cả 2 góc độ nhân sự và kỹ thuật "
                         </div>
@@ -401,7 +401,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-11.png" class="img-thumbnail" alt="feature-3" />
+                        <img src="{{ env('APP_URL') }}img/feature-11.png" class="img-thumbnail" alt="feature-3" />
                         <div>
                             CƠ HỘI đến từ chuyển đổi số ngày nay là rất rõ rệt hơn bao giờ hết bởi hành vi người dùng đã thay đổi rất nhiều trong thời gian qua do sự bùng nổ của công nghệ được thúc đẩy bởi dịch bệnh Covid-19"
                         </div>
@@ -409,7 +409,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-6">
                     <div class="list-feature">
-                        <img src="{{asset('')}}img/feature-12.png" class="img-thumbnail" alt="feature-4" />
+                        <img src="{{ env('APP_URL') }}img/feature-12.png" class="img-thumbnail" alt="feature-4" />
                         <div>
                             ỨNG DỤNG chuyển đổi số vào doanh nghiệp như thế nào vẫn là câu hỏi làm băn khoăn nhiều chủ doanh nghiệp. Có 1 điều chắc chắn, chuyển đổi số phải là động lực, phải phục vụ cho hoạt động kinh doanh, khi đó doanh nghiệp sẽ thành công."
                         </div>
@@ -438,7 +438,7 @@
                 style="display: flex; justify-content: center; align-items: center"
             >
                 <img
-                    src="{{asset('')}}img/different_chat.png"
+                    src="{{ env('APP_URL') }}img/different_chat.png"
                     class="img-thumbnail img-responsive"
                     alt="Blog and Me-different-chats"
                 />
@@ -458,7 +458,7 @@
                     <img
                         class="img-thumbnail"
                         style="border: none"
-                        src="{{asset('')}}img/solution-1.png"
+                        src="{{ env('APP_URL') }}img/solution-1.png"
                         alt="Blog and Me-solution-1"
                     />
                 </div>
@@ -489,7 +489,7 @@
                     <img
                         class="img-thumbnail"
                         style="border: none"
-                        src="{{asset('')}}img/solution-2.png"
+                        src="{{ env('APP_URL') }}img/solution-2.png"
                         alt="Blog and Me-solution-2"
                     />
                 </div>
@@ -499,7 +499,7 @@
                     <img
                         class="img-thumbnail"
                         style="border: none"
-                        src="{{asset('')}}img/solution-3.png"
+                        src="{{ env('APP_URL') }}img/solution-3.png"
                         alt="Blog and Me-solution-3"
                     />
                 </div>
@@ -531,7 +531,7 @@
                     <img
                         class="img-thumbnail"
                         style="border: none"
-                        src="{{asset('')}}img/solution-4.png"
+                        src="{{ env('APP_URL') }}img/solution-4.png"
                         alt="Blog and Me-solution-4"
                     />
                 </div>
@@ -553,14 +553,14 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 section-5--thumbnail">
                 <img
-                    src="{{asset('')}}img/placeholder.png"
+                    src="{{ env('APP_URL') }}img/placeholder.png"
                     alt="Blog and Me-placeholder-img"
                     class="img-thumbnail"
                 />
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 section-5--thumbnail">
                 <img
-                    src="{{asset('')}}img/placeholder.png"
+                    src="{{ env('APP_URL') }}img/placeholder.png"
                     alt="Blog and Me-placeholder-img"
                     class="img-thumbnail"
                 />
@@ -591,7 +591,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-1.png"
+                        src="{{ env('APP_URL') }}img/logo-1.png"
                         class="img-fluid"
                         alt="Logo 1"
                     />
@@ -609,7 +609,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-2.png"
+                        src="{{ env('APP_URL') }}img/logo-2.png"
                         class="img-fluid"
                         alt="Logo 2"
                     />
@@ -627,7 +627,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-3.png"
+                        src="{{ env('APP_URL') }}img/logo-3.png"
                         class="img-fluid"
                         alt="Logo 3"
                     />
@@ -645,7 +645,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-4.png"
+                        src="{{ env('APP_URL') }}img/logo-4.png"
                         class="img-fluid"
                         alt="Logo 4"
                     />
@@ -663,7 +663,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-5.png"
+                        src="{{ env('APP_URL') }}img/logo-5.png"
                         class="img-fluid"
                         alt="Logo 5"
                     />
@@ -681,7 +681,7 @@
             >
                 <div class="brand-wrapper">
                     <img
-                        src="{{asset('')}}img/logo-1.png"
+                        src="{{ env('APP_URL') }}img/logo-1.png"
                         class="img-fluid"
                         alt="Logo 6"
                     />
@@ -707,7 +707,7 @@
                         data-slide="prev"
                     >
                         <img
-                            src="{{asset('')}}img/prev-button.png"
+                            src="{{ env('APP_URL') }}img/prev-button.png"
                             alt="carousel-prev-button"
                         />
                     </a>
@@ -725,7 +725,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-1.png"
+                                src="{{ env('APP_URL') }}img/logo-1.png"
                                 class="img-fluid"
                                 alt="Logo 1"
                             />
@@ -743,7 +743,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-2.png"
+                                src="{{ env('APP_URL') }}img/logo-2.png"
                                 class="img-fluid"
                                 alt="Logo 2"
                             />
@@ -761,7 +761,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-3.png"
+                                src="{{ env('APP_URL') }}img/logo-3.png"
                                 class="img-fluid"
                                 alt="Logo 3"
                             />
@@ -779,7 +779,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-4.png"
+                                src="{{ env('APP_URL') }}img/logo-4.png"
                                 class="img-fluid"
                                 alt="Logo 4"
                             />
@@ -797,7 +797,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-5.png"
+                                src="{{ env('APP_URL') }}img/logo-5.png"
                                 class="img-fluid"
                                 alt="Logo 5"
                             />
@@ -815,7 +815,7 @@
                     >
                         <div class="brand-wrapper">
                             <img
-                                src="{{asset('')}}img/logo-1.png"
+                                src="{{ env('APP_URL') }}img/logo-1.png"
                                 class="img-fluid"
                                 alt="Logo 6"
                             />
@@ -831,7 +831,7 @@
                         data-slide="next"
                     >
                         <img
-                            src="{{asset('')}}img/next-button.png"
+                            src="{{ env('APP_URL') }}img/next-button.png"
                             alt="carousel-next-button"
                         />
                     </a>
@@ -950,7 +950,7 @@
                 style="display: flex; align-items: center; justify-content: center"
             >
                 <img
-                    src="{{asset('')}}img/signup.png"
+                    src="{{ env('APP_URL') }}img/signup.png"
                     alt="Blog and Me-signup"
                     class="img-thumbnail"
                     style="background-color: transparent"
@@ -969,7 +969,7 @@
                 <a href="#">
                     <button class="section-8--see-more-button-wrapper-top">
                         Xem thêm
-                        <img src="{{asset('')}}img/arrow-right.png" alt="arrow-right-icon" />
+                        <img src="{{ env('APP_URL') }}img/arrow-right.png" alt="arrow-right-icon" />
                     </button>
                 </a>
             </div>
@@ -979,7 +979,7 @@
                 <div class="section-8--item margin-right-16">
                     <div class="section-8--item-thumbnail">
                         <img
-                            src="{{asset('')}}img/placeholder.png"
+                            src="{{ env('APP_URL') }}img/placeholder.png"
                             alt="blog-thumbnail"
                             class="img-thumbnail"
                         />
@@ -997,7 +997,7 @@
                                 <div class="see-more">
                                     Xem thêm
                                     <img
-                                        src="{{asset('')}}img/arrow-right.png"
+                                        src="{{ env('APP_URL') }}img/arrow-right.png"
                                         alt="arrow-right-icon"
                                     />
                                 </div>
@@ -1009,7 +1009,7 @@
             <div class="">
                 <div class="section-8--item margin-right-16">
                     <div class="section-8--item-thumbnail">
-                        <img src="{{asset('')}}img/placeholder.png" class="img-thumbnail" alt="blog-thumbnail" />
+                        <img src="{{ env('APP_URL') }}img/placeholder.png" class="img-thumbnail" alt="blog-thumbnail" />
                     </div>
                     <div class="section-8--item-info">
                         <h6>This is title 2</h6>
@@ -1024,7 +1024,7 @@
                                 <div class="see-more">
                                     Xem thêm
                                     <img
-                                        src="{{asset('')}}img/arrow-right.png"
+                                        src="{{ env('APP_URL') }}img/arrow-right.png"
                                         alt="arrow-right-icon"
                                     />
                                 </div>
@@ -1036,7 +1036,7 @@
             <div class="">
                 <div class="section-8--item">
                     <div class="section-8--item-thumbnail">
-                        <img src="{{asset('')}}img/placeholder.png" class="img-thumbnail" alt="blog-thumbnail"  />
+                        <img src="{{ env('APP_URL') }}img/placeholder.png" class="img-thumbnail" alt="blog-thumbnail"  />
                     </div>
                     <div class="section-8--item-info">
                         <h6>This is title 3</h6>
@@ -1051,7 +1051,7 @@
                                 <div class="see-more">
                                     Xem thêm
                                     <img
-                                        src="{{asset('')}}img/arrow-right.png"
+                                        src="{{ env('APP_URL') }}img/arrow-right.png"
                                         alt="arrow-right-icon"
                                     />
                                 </div>
@@ -1065,7 +1065,7 @@
             <a href="#">
                 <button class="section-8--see-more-button-wrapper-bottom">
                     Xem tất cả
-                    <img src="{{asset('')}}img/arrow-right.png" alt="arrow-right-icon" />
+                    <img src="{{ env('APP_URL') }}img/arrow-right.png" alt="arrow-right-icon" />
                 </button>
             </a>
         </div>
@@ -1076,7 +1076,7 @@
         <div class="row nav-links">
             <div class="col-lg-2 col-md-12 footer--logo-wrapper">
                 <div>
-                    <img src="{{asset('')}}img/logo-footer.png" alt="Blog and Me-logo-white" class="img-thumbnail logo"/>
+                    <img src="{{ env('APP_URL') }}img/logo-footer.png" alt="Blog and Me-logo-white" class="img-thumbnail logo"/>
                     <div class="footer--brand-description">Một sản phẩm của nal.vn</div>
                 </div>
             </div>
@@ -1240,16 +1240,16 @@
         <div class="footer--contact row">
             <div class="col-9 col-xs-9 col-sm-9 col-md-9 col-lg-9 row">
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                    <img src="{{asset('')}}img/user-icon-footer.png" alt="user-icon" />
+                    <img src="{{ env('APP_URL') }}img/user-icon-footer.png" alt="user-icon" />
                     +84-28-2247-9933
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                    <img src="{{asset('')}}img/email-icon-footer.png" alt="email-icon" />
+                    <img src="{{ env('APP_URL') }}img/email-icon-footer.png" alt="email-icon" />
                     info@gmail.com
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <img
-                        src="{{asset('')}}img/location-icon-footer.png"
+                        src="{{ env('APP_URL') }}img/location-icon-footer.png"
                         alt="location-icon"
                     />
                     Thành phố Hồ Chí Minh
@@ -1259,7 +1259,7 @@
                 <div>
                     <a href="#">
                         <img
-                            src="{{asset('')}}img/facebook-white.png"
+                            src="{{ env('APP_URL') }}img/facebook-white.png"
                             alt="facebook-icon-white"
                         />
                     </a>
@@ -1267,7 +1267,7 @@
                 <div>
                     <a href="#">
                         <img
-                            src="{{asset('')}}img/twitter-white.png"
+                            src="{{ env('APP_URL') }}img/twitter-white.png"
                             alt="twitter-icon-white"
                         />
                     </a>
@@ -1275,7 +1275,7 @@
                 <div>
                     <a href="#">
                         <img
-                            src="{{asset('')}}img/linkedin-white.png"
+                            src="{{ env('APP_URL') }}img/linkedin-white.png"
                             alt="linkedin-icon-white"
                         />
                     </a>
