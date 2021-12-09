@@ -1,0 +1,799 @@
+.grey-section {
+  background-color: #f3f8f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.white-section {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-1 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+.section-2 img {
+  width: 100%;
+  object-fit: contain;
+}
+.section-2--title {
+  margin-bottom: 40px;
+}
+
+.section-6--description-wrapper {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.section-2--description p {
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+.section-3--subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.card-collapse-content {
+  font-family: Montserrat-Light;
+}
+
+.section-3 img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.section-4 img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.section-3 .row div {
+  margin-bottom: 24px;
+}
+
+.wonderful-features {
+  margin-top: 80px;
+}
+.wonderful-features--title {
+  margin-bottom: 60px;
+}
+
+.description {
+  margin: 40px 0px;
+  text-align: center;
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.experience-button {
+  text-align: center;
+}
+
+.align-item-left {
+  align-items: flex-start !important;
+}
+
+.business {
+  margin-top: 80px;
+}
+
+.business .card-header {
+  background-color: white;
+  padding: 24px;
+  border: none;
+  border-bottom: 1px solid #ebedef;
+  display: flex;
+  cursor: pointer;
+}
+
+.business .card-header .arrow {
+  width: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../img/arrow-up.png');
+}
+
+.business .collapsed .arrow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 16px;
+  background-image: url('../img/arrow-down.png');
+}
+
+.business .card-header .mb-0 {
+  flex: 1;
+}
+
+.business .card-header .arrow-down-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business .card {
+  border: none;
+  margin-bottom: 24px;
+}
+.business .card-header .btn-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  padding: 0;
+  /* Theme/Primary/1 */
+
+  color: #146b3a;
+}
+
+.business .card-header .btn-link:hover {
+  text-decoration: none;
+}
+
+.business .card-header .btn-link:focus {
+  text-decoration: none;
+}
+.business .card-body {
+  padding: 24px;
+}
+
+.section-6 {
+}
+
+.section-6--description {
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #5b6a6d;
+}
+
+.carousel-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-nav-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-inner img {
+  margin-bottom: 20px;
+  height: 115px;
+  width: 115px;
+  object-fit: contain;
+}
+
+.brand-partner {
+  width: 200px;
+  height: 193px;
+  margin-right: 16px;
+}
+
+.brand-partner .brand-wrapper {
+  width: 200px;
+  height: 193px;
+}
+
+.brand-wrapper {
+  border: 1px solid #d6dada;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px 40px;
+}
+.brands-list {
+  display: none;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+
+.brand-wrapper img {
+  width: 115px;
+  height: 115px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .brands-list {
+    display: flex;
+  }
+
+  #carousel-example-generic {
+    display: none;
+  }
+}
+
+.section-6 .title {
+  text-align: center;
+}
+.enterprise-feature-title {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #334448;
+  margin-bottom: 40px;
+  align-self: left;
+}
+
+.enterprise-feature-description {
+  color: #334448;
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.business-card {
+  flex: 1 0 190px; /* The important bit. This percentage decides your columns.
+ The percent can be px. It just represents your minimum starting width.
+  */
+  margin: 16px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business-card-wrapper {
+  width: 190px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  border-radius: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  text-align: center;
+}
+
+.business-card-wrapper img {
+  width: 160px;
+  height: 160px;
+}
+
+.business-card-content-wrapper {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.business-card-title {
+  margin-top: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #334448;
+  text-align: center;
+}
+
+
+.business-card-content {
+  margin-top: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+  color: #334448;
+}
+
+.chatops-main-solutions-col {
+  font-family: Montserrat-Light;
+}
+
+.feature-grid {
+  /* margin-top: 80px; */
+}
+
+.feature-grid .col-md-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left {
+  padding-right: 24px;
+}
+
+.right {
+  padding-left: 24px;
+}
+
+.section-1 {
+  align-items: center;
+  /* text-align: center; */
+}
+
+.chatops-solition-thumbnail {
+  background-image: url("../img/chatops-solution-thumbnail.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 789px;
+}
+
+.chatops-advatage-ai {
+  background-image: url("../img/chatops-advantage-ai.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 462px;
+  margin-top: 80px;
+}
+
+.chatops-advatage-collaborative {
+  background-image: url("../img/chatops-advatage-collaborative.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 742px;
+}
+.list-item {
+  margin-right: -16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  /* Neutral 1/50 */
+
+  border: 1px solid #ebeded;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #99a2a4;
+  cursor: pointer;
+}
+
+.list-item-active {
+  background: #f3f8f5;
+
+  border: 1px solid #146b3a;
+  color: #146b3a;
+}
+
+.feature {
+  margin-bottom: 120px;
+}
+
+.list-feature {
+  margin-right: -8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  /* Neutral 1/50 */
+  padding: 16px;
+  padding-bottom: 32px;
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  height: 312px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334448;
+}
+
+.list-feature img {
+  margin-bottom: 24px;
+}
+
+.img-thumbnail {
+  border: none;
+  padding: 0;
+}
+
+.section-7 {
+}
+
+.company-size {
+  /* Caption 1/Medium */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #99a2a4;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.section-7 label {
+  margin-left: 10px;
+}
+
+.section-8 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-8--header {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-8--title-wrapper {
+  flex: 1;
+}
+
+.section-8--see-more-button-wrapper {
+  padding: 8px 16px;
+  background: #f3f8f5;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #146b3a;
+}
+.section-8--see-more-button-wrapper img {
+  margin-left: 12px;
+}
+
+.section-8--items {
+  margin-top: 40px;
+}
+
+.section-8--item {
+  background: #ffffff;
+  /* Shadow 1 */
+
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  border-radius: 12px;
+  margin-right: -8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #ffffff;
+}
+
+.section-8--item-thumbnail {
+  padding: 0;
+  /* margin-bottom: 32px; */
+}
+
+.section-8--item-thumbnail img {
+  padding: 0;
+  object-fit: contain;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  border-radius: 12px 12px 0px 0px;
+}
+
+.section-8--item-info {
+  padding: 32px 16px 24px 16px;
+}
+.section-8--item-info h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+.section-8--item-info p {
+  /* Body 2/Regular */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  /* Neutral 1/500 */
+
+  color: #848f91;
+}
+.section-8--item-footer {
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #848f91;
+}
+
+.section-8--item-footer span {
+  color: #146b3a;
+}
+
+.section-8--item-footer img {
+  margin-left: 8px;
+}
+.section-8--item-footer .see-more {
+  color: #146b3a;
+}
+
+@media (max-width: 768px) {
+  .button-watch-demo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .signup-thumbnail {
+    margin-top: 60px;
+  }
+
+  .different-thumbnail {
+    margin-top: 60px;
+  }
+  .header-title {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .section-1 .description {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.margin-btm-80 {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1200px) {
+  .chatops-solition-thumbnail {
+    height: 644px;
+  }
+  .chatops-advatage-ai {
+    height: 376px;
+  }
+  .chatops-advatage-collaborative {
+    height: 480px;
+  }
+}
+@media (max-width: 996px) {
+  .chatops-solition-thumbnail {
+    height: 480px;
+  }
+  .chatops-advatage-ai {
+    height: 279px;
+  }
+  .chatops-advatage-collaborative {
+    height: 356px;
+  }
+}
+@media (max-width: 768px) {
+  .chatops-solition-thumbnail {
+    height: 367px;
+  }
+
+  .chatops-advatage-ai {
+    height: 206px;
+  }
+  .chatops-advatage-collaborative {
+    height: 263px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section-8--header {
+    display: block;
+  }
+  .section-1 .description {
+    text-align: left;
+  }
+
+  .section-1 {
+    padding-top: 35px;
+  }
+
+  .section-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .section-2 .title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .section-3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .section-3 .title {
+    margin-bottom: 16px;
+  }
+
+  .section-3--subtitle {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .chatops-main-solutions-col {
+    margin-top: 0;
+    height: unset;
+  }
+
+  .section-3 .row div {
+    margin-bottom: 16px;
+  }
+
+  .section-4 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .section-4 .title {
+    margin-bottom: 0;
+  }
+
+  .section-4 img {
+    margin-top: 16px;
+  }
+
+  .white-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .grey-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .wonderful-features {
+    margin-top: 24px;
+  }
+  .enterprise-feature-title {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Montserrat-SemiBold;
+    font-weight: 800;
+  }
+
+  .margin-btm-80 {
+    margin-bottom: 24px;
+  }
+
+  .section-6 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .section-6 .business {
+    margin-top: 24px;
+  }
+
+  .section-6--description-wrapper {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .section-7 .title {
+    text-align: center !important;
+  }
+  .section-7 {
+  }
+
+  .chatops-solition-thumbnail {
+    background-image: url("../img/chatops-solution-thumbnail-mobile.png");
+    height: 721px;
+  }
+
+  .chatops-advatage-ai {
+    background-image: url("../img/chatops-advantage-ai-mobile.png");
+    margin-top: 16px;
+    height: 534px;
+    margin-bottom: 32px !important;
+  }
+
+  .chatops-advatage-collaborative {
+    background-image: url("../img/chatops-advatage-collaborative-mobile.png");
+    height: 938px;
+  }
+}

@@ -1,0 +1,188 @@
+.footer {
+  background: #146b3a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.footer--brand-description {
+  line-height: 20px;
+  margin-top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer--contact img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.footer--contact-info {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer--follow-social {
+  text-align: right;
+}
+
+.footer--follow-social img {
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.nav-link-child {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.nav-link-header {
+  font-weight: 600;
+  font-family: Montserrat-Regular;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer--contact {
+    /* margin-top: 40px; */
+  }
+  .footer--contact-info {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer--follow-social {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .button-watch-demo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.footer .logo {
+  background-color: transparent;
+  margin-top: -8px;
+  width: 138px;
+  height: 40px;
+}
+
+.footer .nav-links {
+  border-bottom: 1px solid white;
+  padding-bottom: 28px;
+}
+
+.footer--contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer--contact div {
+  display: flex;
+  align-items: center;
+}
+
+.footer--social-links {
+  display: flex;
+  justify-content: right;
+}
+.footer--social-links img {
+  margin-left: 24px;
+  margin-right: 0;
+}
+.nav-links-col-mobile {
+  display: none;
+}
+
+@media (max-width: 996px) {
+  .footer--logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-links-col {
+    display: none;
+  }
+  .nav-links-col-mobile {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-link-header {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .footer--logo-wrapper {
+    /* margin-left: 14px; */
+  }
+  .nav-link-header:hover {
+    color: white !important;
+  }
+  .footer--contact {
+    padding-top: 0;
+    padding-bottom: 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer--contact div {
+    margin-top: 26px;
+  }
+
+  .footer--social-links {
+    display: block !important;
+    text-align: right !important;
+    justify-content: right !important;
+    align-items: flex-end !important;
+  }
+  .footer--social-links div {
+    display: block !important;
+    text-align: right !important;
+    justify-content: right !important;
+    align-items: flex-end !important;
+  }
+  .footer--social-links {
+    display: flex;
+    justify-content: right;
+  }
+}
+
+.footer .dropdown {
+  /* margin-left: 20px; */
+}

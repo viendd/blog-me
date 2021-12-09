@@ -1,0 +1,108 @@
+.podcast img {
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.podcast h1 {
+  margin-bottom: 80px;
+}
+
+.song-description {
+  margin-top: 24px;
+  margin-bottom: 80px;
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #848f91;
+}
+
+.img-thumbnail {
+  border: none;
+  padding: 0;
+}
+
+.section-7 {
+}
+
+.company-size {
+  /* Caption 1/Medium */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #99a2a4;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.section-7 label {
+  margin-left: 10px;
+}
+
+.grey-section {
+  background-color: #f3f8f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.white-section {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+  .podcast img {
+    margin-top: 44px;
+  }
+  .podcast h1 {
+    margin-bottom: 32px;
+  }
+  .song-description {
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+  .grey-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .section-7 .title {
+    text-align: center !important;
+  }
+}

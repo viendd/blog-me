@@ -1,0 +1,222 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+body {
+  font-family: Montserrat;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+.button-outline {
+  border: 1px solid #146b3a;
+  box-sizing: border-box;
+  border-radius: 24px;
+  padding: 12px 16px;
+  background-color: transparent;
+  color: #146b3a;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button-filled {
+  background: linear-gradient(
+    264.41deg,
+    #146b3a 0%,
+    #52ae7a 0.01%,
+    #165d35 102.96%
+  );
+  border-radius: 24px;
+  border: none;
+  padding: 12px 16px;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Montserrat-Regular;
+}
+
+.normal-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-filled:hover {
+  background: #175b33;
+}
+
+.header-title {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.text-green {
+  color: #146b3a;
+}
+
+.bold {
+  font-family: Montserrat-Bold;
+  font-weight: bold;
+}
+
+.title {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+  color: #334448;
+}
+
+.img-responsive {
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: unset;
+}
+a:hover {
+  color: unset;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-14 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-28 {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.pagination-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.page-link {
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+  color: #5b6a6d;
+}
+
+.page-link:hover {
+  background-color: transparent;
+}
+.pagination .active .page-link {
+  background: #146b3a;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pagination .page-item {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.img-thumbnail {
+  background-color: transparent;
+}
+.why-is-chatops-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chatops-main-solutions-col {
+  background: #ffffff;
+  /* Shadow small */
+
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.2);
+  border-radius: 12px;
+  margin-right: -16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 16px;
+  height: 120px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.why-is-chatops-text-wrapper {
+}
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Montserrat !important;
+  }
+  .title {
+    font-family: Montserrat !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    color: #334448;
+  }
+  .pagination-wrapper {
+    margin-top: 32px;
+  }
+}

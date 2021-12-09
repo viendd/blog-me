@@ -1,0 +1,515 @@
+.ebook-detail {
+  padding-top: 120px;
+}
+.ebook-detail-description {
+  color: #5b6a6d;
+  font-family: Montserrat-Light;
+  margin-top: 16px;
+  margin-bottom: 80px;
+}
+
+.left {
+  padding-right: 12px;
+}
+
+.right {
+  padding-left: 12px;
+}
+
+.grey-section {
+  background-color: #f3f8f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.white-section {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.img-thumbnail {
+  border: none;
+  padding: 0;
+}
+
+.ebook-content {
+  padding-bottom: 80px;
+}
+
+.main-content-header {
+  margin-top: 24px;
+  font-family: Montserrat-Bold;
+  margin-bottom: 0;
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content-index {
+  border-radius: 24px;
+  background-color: #146b3a;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.main-content-wrapper {
+  margin-top: 24px;
+}
+.main-content-text {
+  padding-left: 16px;
+  flex: 1;
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+.form-header {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+  margin-bottom: 40px;
+}
+.category-header {
+  color: #146b3a;
+}
+
+.category-option {
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:hover {
+  background: #ffffff;
+  /* Theme/Primary/1 */
+
+  border: 1px solid #146b3a;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(20, 107, 58, 0.2);
+  border-radius: 4px;
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+}
+input[type="checkbox"] {
+  background-color: white;
+}
+
+.custom-checkbox .custom-control-label::before {
+  background-color: white;
+  border: 1px solid #e2e7ed;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.custom-checkbox .custom-control-label::after:hover {
+  border: 1px solid #146b3a;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(20, 107, 58, 0.2);
+  border-radius: 4px;
+}
+
+.custom-checkbox .custom-control-label::before:hover {
+  border: 1px solid #146b3a;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(20, 107, 58, 0.2);
+  border-radius: 4px;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #146b3a;
+  background-color: #146b3a;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+}
+
+.custom-checkbox label {
+  margin-top: 1.8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+.side-banner {
+  margin-top: 24px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 80px; */
+  width: 100%;
+}
+
+.ebooks .input input::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ebooks .input {
+  background: #ffffff;
+  border: 1px solid #d6dada;
+  box-sizing: border-box;
+  border-radius: 28px;
+  width: 100%;
+  padding: 14px 16px;
+  display: flex;
+}
+
+.ebooks .input input {
+  width: 100%;
+  border: none;
+}
+
+.ebooks .input input:focus,
+.ebooks .input input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.category-items--items {
+  margin-top: 24px;
+}
+
+.category-items--item {
+  background: #ffffff;
+  /* Shadow 1 */
+
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  border-radius: 12px;
+  margin-right: -8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background: #ffffff;
+}
+
+.category-items--item-thumbnail {
+  padding: 0;
+  /* margin-bottom: 32px; */
+}
+
+.category-items--item-thumbnail img {
+  padding: 0;
+  object-fit: contain;
+  width: 100%;
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+  border-radius: 12px 12px 0px 0px;
+}
+
+.category-items--item-info {
+  padding: 32px 16px 24px 16px;
+}
+.category-items--item-info h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Neutral 1/900 */
+
+  color: #334448;
+}
+
+.category-items--item-info p {
+  /* Body 2/Regular */
+
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 125% */
+
+  /* Neutral 1/500 */
+
+  color: #848f91;
+}
+.category-items--item-footer {
+  display: flex;
+  flex-direction: row;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #848f91;
+}
+
+.category-items--item-footer span {
+  color: #146b3a;
+}
+
+.category-items--item-footer img {
+  margin-left: 8px;
+}
+.category-items--item-footer .see-more {
+  color: #146b3a;
+}
+
+.signup-ebook {
+  width: 100%;
+  background-color: white;
+  border-radius: 28px;
+  padding: 12px;
+  border: none;
+  display: flex;
+  margin-bottom: 48px;
+  flex-direction: row;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  border: 1px solid #ebeded;
+  /* Neutral 1/400 */
+
+  color: black;
+}
+
+.ebook-detail input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid #ebeded !important;
+}
+
+.ebook-detail input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 4px solid #146b3a !important;
+}
+.signup-ebook:hover {
+  border: 1px solid #146b3a;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 2px rgba(20, 107, 58, 0.2);
+}
+
+.signup-ebook:hover input::placeholder {
+  color: #146b3a;
+}
+
+.signup-ebook:hover svg path {
+  fill: #146b3a;
+}
+
+.signup-ebook input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334448;
+}
+
+.signup-ebook input::placeholder {
+  font-family: Montserrat-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 140% */
+
+  /* Neutral 1/400 */
+
+  color: #99a2a4;
+}
+
+input:hover {
+}
+
+.signup-ebook input:focus,
+.signup-ebook input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.ebook-detail .company-size {
+  font-size: 16px;
+  font-family: Montserrat-Light;
+}
+.signup-ebook svg {
+  margin-right: 12px;
+  margin-top: -1px;
+  object-fit: contain;
+}
+
+.company-size-option {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+
+.more-ebook {
+  margin-top: 80px;
+}
+
+.more-ebook h2 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .company-size-option {
+    align-items: flex-start !important;
+    justify-content: left !important;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ebook-detail {
+    padding-top: 44px;
+  }
+  .ebook-detail-description {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 32px;
+  }
+
+  .main-content-header {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Montserrat-SemiBold;
+    text-align: center;
+  }
+
+  .main-content-index {
+    width: 40px;
+  }
+  .main-content-text {
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .form-header {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Montserrat-SemiBold;
+    margin-bottom: 24px;
+  }
+  .signup-ebook {
+    margin-bottom: 24px;
+  }
+  .signup-ebook input {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .more-ebook {
+    margin-top: 32px;
+  }
+  .more-ebook .title {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .category-items--items {
+    margin-top: 0;
+  }
+  .category-items--item {
+    margin-top: 16px;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .ebook-content {
+    padding-bottom: 16px;
+  }
+  .grey-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .section-7 .title {
+    text-align: center !important;
+  }
+
+  category-items--item-info {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .category-items--item-info {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .category-items--item-info h6 {
+    margin-bottom: 0;
+  }
+  .category-items--item-info p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-family: Montserrat-Light;
+  }
+  .category-items--item-footer {
+    margin-top: 8px;
+  }
+}

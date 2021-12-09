@@ -1,0 +1,178 @@
+.navbar {
+  background-color: transparent;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0;
+  font-family: Montserrat-Regular;
+}
+
+.navbar--wrapper {
+  margin: auto;
+}
+
+.navbar-brand {
+  margin-right: 12px;
+}
+.dropdown {
+  display: inline-block;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.dropdown-item {
+  padding: 9px 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.navbar--dropdown {
+  background-color: transparent !important;
+  color: #848f91;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("/public/img/burger-menu.png") !important;
+  width: 30px !important;
+  height: 18px !important;
+}
+
+.navbar--menu-show {
+  background-color: transparent !important;
+  /* color: #175b33 !important; */
+  border-color: transparent !important;
+  box-shadow: none !important;
+  font-size: 16px;
+}
+
+.navbar--item-active {
+  color: #175b33 !important;
+}
+
+.navbar--item {
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #848f91;
+  margin-right: 8px;
+  box-shadow: none !important;
+}
+
+.show > .nav-link {
+  color: #175b33 !important;
+}
+
+.navbar--item:hover {
+  color: #175b33 !important;
+}
+
+.navbar--dropdown:hover {
+  background-color: transparent;
+  border: none;
+  color: #175b33;
+  font-size: 16px;
+}
+
+.navbar--dropdown:focus {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  color: #175b33;
+  font-size: 16px;
+}
+
+.navbar--dropdown:active {
+  background-color: transparent;
+  border: none !important;
+  box-shadow: none !important;
+  color: #175b33 !important;
+  font-size: 16px;
+}
+
+.navbar--dropdown-menu-show {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(8, 68, 27, 0.1);
+}
+
+.dropdown-item:hover {
+  background: #f3f8f5;
+  color: #146b3a;
+}
+
+.dropdown-menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.chatops-logo {
+  max-width: 258px;
+  background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .chatops-logo {
+    max-width: 164px;
+  }
+  .download-button-wrapper-before {
+    display: unset;
+    margin-right: 6px !important;
+  }
+}
+
+.download-button-wrapper-before {
+  display: none;
+}
+
+@media (max-width: 996px) {
+
+}
+@media (max-width: 1200px) {
+  .download-button-wrapper-before {
+    display: unset;
+    margin-right: 16px;
+  }
+  .download-button-wrapper-after {
+    display: none;
+  }
+  .navbar-expand-xl {
+    justify-content: unset !important;
+  }
+  .navbar-brand {
+    flex: 1;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    align-items: center;
+  }
+}
+@media (max-width: 1183px) {
+  .navbar--item {
+    margin-right: 0px;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+  nav {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
