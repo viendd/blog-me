@@ -2,6 +2,34 @@
   background-color: #f3f8f5;
 }
 
+div#navbarNavAltMarkup {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.input-group.search{
+    width: unset;
+    border-radius: 20px;
+}
+
+#input-search{
+    background: unset;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+.information-user{
+    margin-top: 20px;
+}
+
 .section-1 {
   padding-top: 80px;
   padding-bottom: 80px;

@@ -17,6 +17,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ env('APP_URL') }}css/index.css" />
     <link rel="stylesheet" href="{{ env('APP_URL') }}css/homepage.css" />
     <link rel="stylesheet" href="{{ env('APP_URL') }}css/navbar.css" />
@@ -55,9 +56,9 @@
         <nav
             class="navbar-expand-xl container navbar-light navbar--wrapper"
         >
-            <a class="navbar-brand" href="/">
-                <img width="340px" src="{{ env('APP_URL') }}img/logo-blogstartUp.png" alt="Blog and Me-logo" class="img-thumbnail Blog and Me-logo"/>
-            </a>
+{{--            <a class="navbar-brand" href="/">--}}
+{{--                <img width="340px" src="{{ env('APP_URL') }}img/logo-blogstartUp.png" alt="Blog and Me-logo" class="img-thumbnail Blog and Me-logo"/>--}}
+{{--            </a>--}}
 {{--            <div class="download-button-wrapper-before">--}}
 {{--                <a href="https://demo.Blog and Me.vn/">--}}
 {{--                    <button class="button-filled">Download now</button>--}}
@@ -107,9 +108,6 @@
                             <a class="dropdown-item" href="/ebooks.html">Laravel</a>
                             <a class="dropdown-item" href="/blog.html">VueJs</a>
                             <a class="dropdown-item" href="#">ReactJs</a>
-{{--                            <a class="dropdown-item" href="#">Success Story</a>--}}
-{{--                            <a class="dropdown-item" href="#">Learning Pool</a>--}}
-{{--                            <a class="dropdown-item" href="/podcast.html">Playlist</a>--}}
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -129,6 +127,40 @@
                         </a>
                     </li>
                 </ul>
+                <div class="input-group search border rounded-pill p-1">
+                    <input type="search" id="input-search" placeholder="Nhập từ bạn cần tìm?" aria-describedby="button-addon3" class="form-control bg-none border-0">
+                    <div class="input-group-append border-0">
+                        <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <ul class="information-user">
+                    {{--                    @if(auth()->check())--}}
+                    <li class="nav-item dropdown">
+                        <a
+                            class="
+                    nav-link
+                    navbar--item
+                    dropdown-toggle
+                    navbar--menu-show
+                  "
+                            href="#"
+                            id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                        >
+                            <img style="width: 50px; height: 50px; border-radius: 50%" src="{{ env('APP_URL') ."img/avatar.png" }}" alt="">
+                        </a>
+                        <div
+                            class="dropdown-menu navbar--dropdown-menu-show"
+                            aria-labelledby="navbarDropdownMenuLink"
+                        >
+                            <a class="dropdown-item" href="/ebooks.html">Viết bài</a>
+                            <a class="dropdown-item" href="/blog.html">Đặt câu hỏi</a>
+                        </div>
+                    </li>
+                    {{--                    @endif--}}
+                </ul>
             </div>
 {{--            <div class="download-button-wrapper-after">--}}
 {{--                <a href="https://demo.Blog and Me.vn/">--}}
@@ -136,7 +168,6 @@
 {{--                </a>--}}
 {{--            </div>--}}
         </nav>
-    </div>
         @yield('header-title')
 </div>
 
@@ -1001,6 +1032,8 @@
 {{--    </div>--}}
 {{--</div>--}}
 @yield('footer')
+
+</div>
 <script>
     (function ($) {
         function calcStepSize(optionNode) {
